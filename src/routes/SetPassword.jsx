@@ -22,9 +22,12 @@ const SetPasswordRoute = () => {
   };
 
   return (
-    <div className="set-password-page">
-      <SetPassword onSubmit={handleSetPassword} />
-    </div>
+    <>
+      <Background image_path={"/login_signup.svg"} />
+      <div className="set-password-page">
+        <SetPassword onSubmit={handleSetPassword} />
+      </div>
+    </>
   );
 };
 
